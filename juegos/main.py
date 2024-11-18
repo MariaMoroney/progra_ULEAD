@@ -1,8 +1,4 @@
-from imprimir_tablero import imprimir_tablero
-from c_tablero import crear_tablero
-from movimiento import es_movimiento_valido
-from mover_ficha import mover_ficha
-from posicion import convertir_posicion
+from functions import crear_tablero, imprimir_tablero, convertir_posicion, es_movimiento_valido, mover_ficha
 
 def main():
     try:

@@ -1,4 +1,4 @@
-from ficha_base import Ficha
+from juegos.piezas.ficha_base import Ficha
 
 class FichaGris(Ficha):
     """Clase para fichas grises del jugador 2."""

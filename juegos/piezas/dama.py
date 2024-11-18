@@ -1,4 +1,4 @@
-from ficha_base import Ficha
+from juegos.piezas.ficha_base import Ficha
 
 class Dama(Ficha):
     """Clase para las fichas promovidas a damas."""

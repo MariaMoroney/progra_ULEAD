@@ -1,6 +1,6 @@
-from fichaRoja import FichaRoja
-from fichaGris import FichaGris
-from dama import Dama
+from juegos.piezas.fichaRoja import FichaRoja
+from juegos.piezas.fichaGris import FichaGris
+from juegos.piezas.dama import Dama
 
 class Ficha:
     """Clase base para las fichas."""
