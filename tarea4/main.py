@@ -1,20 +1,28 @@
 import utilidades
 
-def main():
-    print("Read an integer")
-    number = utilidades.get_integer_input(prompt="Please enter a number: ", max_attempts=3, positive_only=True)
-    print(f"The number is {number}")
-
-    print("Read a float")
-    number = utilidades.get_float_input(prompt="Please enter a number: ", max_attempts=3, positive_only=True)
-    print(f"The number is {number}")
-
-    print("Open a file")
-    file = utilidades.open_file()
-    print(f"The file is {file}")
-
-    print("Display a menu")
-    utilidades.show_menu(menu_title="Menu", menu_options=["Option 1", "Option 2", "Option 3"])
-
 if __name__ == "__main__":
-    main()
+    # Test de read_int
+    try:
+        numero = utilidades.read_int(prompt="Ingrese un número entero: ", qty_attempts=3, only_positives=True)
+        print(f"El número entero ingresado es: {numero}")
+    except Exception as e:
+        print(e)
+
+    # Test de read_floating_point
+    try:
+        numero_float = utilidades.read_floating_point(prompt="Ingrese un número decimal: ", qty_attempts=3, only_positives=True)
+        print(f"El número decimal ingresado es: {numero_float}")
+    except Exception as e:
+        print(e)
+
+    # Test de get_file
+    try:
+        archivo = utilidades.get_file("archivo_prueba.txt", end_program=False)
+        print("Archivo abierto correctamente.")
+        archivo.close()
+    except Exception as e:
+        print(e)
+
+    # Test de display_menu
+    opciones = ["Opción 1", "Opción 2", "Opción 3"]
+    utilidades.display_menu(titulo_menu="Mi Menú", lista_opciones=opciones, caracter_opciones="alfabético")
