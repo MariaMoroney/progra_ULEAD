@@ -1,0 +1,26 @@
+[
+    {
+        "sequential_id": 1,
+        "title": "pantalones cortos",
+        "author": "lara rios",
+        "publication_year": 1995,
+        "available": true,
+        "volume_number": 1
+    },
+    {
+        "sequential_id": 2,
+        "title": "pantalones largos",
+        "author": "lara rios ",
+        "publication_year": 1997,
+        "available": true,
+        "volume_number": 2
+    },
+    {
+        "sequential_id": 3,
+        "title": "la divina comedia",
+        "author": "dante ",
+        "publication_year": 1307,
+        "available": true,
+        "volume_number": 1
+    }
+]

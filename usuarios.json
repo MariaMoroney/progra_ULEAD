@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "luis",
+        "id_usuario": 1905,
+        "libros_prestados": []
+    },
+    {
+        "nombre": "mafe kiory",
+        "id_usuario": 1605,
+        "libros_prestados": []
+    }
+]
